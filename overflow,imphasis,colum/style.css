@@ -1,0 +1,20 @@
+.emp{
+    width: 400px;
+    height: 50px;
+    border: 2px solid #000;
+    margin-bottom: 50px;
+    font-size: 21px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.class1{
+    overflow: auto;    width: 400px;
+    height: 400px;
+    border: 2px solid #000;
+    margin-bottom: 50px;
+}
+.colum{
+    column-count: 3;
+    direction: rtl;
+}

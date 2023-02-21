@@ -1,0 +1,69 @@
+.div{
+    width: 200px;
+    height: 200px;
+    background: rebeccapurple;
+    margin: 20px;
+    float: left;
+    padding-top: 90px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    box-sizing: border-box;
+    text-align: center;
+    cursor: pointer;
+    transition: all 00.5s;
+}
+.div1:hover{
+    transform: rotate(50deg);
+}
+.div2:visited{
+    background-color: aqua;
+}
+.div3:link{
+    background-color: rgb(0, 255, 136);
+}
+.div4{
+    width: 1000px;
+}
+input{
+    padding: 10px;
+}
+input:focus{
+    width: 80%;
+    padding: 10px;
+}
+ul{
+    display: block;
+    overflow: hidden;
+    clear: both;
+}
+li::before{
+    content: "Before ";
+    font-size: 18px;
+}
+li::after{
+    content: " After ";
+    font-size: 18px;
+}
+li:nth-child(odd){
+    color: red;
+}
+/* li:nth-child(2n+1){
+    color: red;
+} */
+li:nth-child(even){
+    color: blue;
+}
+/* li:nth-child(2n){
+    color: blue;
+} */
+li:nth-child(5){
+    background-color: brown;
+    color: aqua;
+}
+li:first-child{
+    color: rgb(228, 13, 181);
+}
+li:last-child{
+    color: rgb(20, 220, 83);
+}

@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #000;
+    margin-right: 10px;
+}
+.box2{
+    visibility: hidden;
+}
+.box4{
+    display: none;
+}
+.left_box{
+    border-right: 5px solid blue;
+    width: 40%;
+}
+:root{
+    --color:red;
+}
+.right{
+    font-size: 25px;
+    color: var(--color);
+}
+.jm{
+    width: calc(100% - 10%); 
+    height: 200px;
+    background-color: var(--color) !important;
+    background: blue;
+    color: white;
+}

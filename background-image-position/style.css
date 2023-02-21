@@ -1,0 +1,50 @@
+body{
+    background-color: #FBFBFB;
+}
+.bg{
+    width: 250px;
+    height: 250px;
+    border: 2px solid #00f;
+    float: left;
+    margin: 20px;
+}
+.bg_7{
+    background: url('download.jpg') no-repeat ;
+    background-size: 100px;
+    background-position: right;
+}
+.bg_6{
+    background: url('download.jpg') no-repeat;
+    background-size: 100px;
+    background-position: top;
+}
+.bg_8{
+    background: url('download.jpg') no-repeat;
+    background-size: 100px;
+    background-position: left;
+}
+.bg_9{
+    background: url('download.jpg') no-repeat;
+    background-size: 100px;
+    background-position: bottom;
+}
+.bg_10{
+    background: url('download.jpg') no-repeat;
+    background-size: 100px;
+    background-position: bottom right;
+}
+.bg_11{
+    background: url('download.jpg') no-repeat;
+    background-size: 100px;
+    background-position: bottom left;
+}
+.bg_12{
+    background: url('download.jpg') no-repeat;
+    background-size: 100px;
+    background-position: top left;
+}
+.bg_13{
+    background: url('download.jpg') no-repeat;
+    background-size: 100px;
+    background-position: center;
+}

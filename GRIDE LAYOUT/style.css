@@ -1,0 +1,30 @@
+.continer{
+    display: grid;
+    grid-template-columns: repeat(3,200px) 1fr 100px;
+    grid-template-rows: 200px 400px 100px;
+    grid-gap: 10px ; 
+}
+.box{
+    background: red;
+}
+.box:nth-child(odd){
+    background: green;
+}
+.box4{
+    grid-row: span 2;
+}
+.box10{
+    grid-column: span 2;
+}
+@media screen and (max-width:576px) {
+    .continer{
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: repeat(17 ,100px);
+    }
+    .box4 {
+        grid-row: span 1;
+    }
+    .box10 {
+        grid-column: span 1;
+    } 
+}

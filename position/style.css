@@ -1,0 +1,58 @@
+div{
+    width: 100%;
+    height: 100vh;
+    /* background-color: aqua; */
+    margin-bottom: 10px;
+    color: #fff;
+}
+div:nth-child(2n+1){
+    background-color: gray;
+}
+div:nth-child(2n){
+    background-color: aqua;
+}
+.span1{
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: red;
+    position: static;
+}
+.span2{
+    display: block;
+    width: 350px;
+    height: 350px;
+    background: red;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.span2 span{ 
+    display: block;
+    width: 150px;
+    height: 150px;
+    background: blue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.span3{
+    display: block;
+    width: 350px;
+    height: 350px;
+    background: red;
+    position: sticky;
+    top: 50px ;
+    left: 40%;
+}
+.span4{
+    display: block;
+    width: 350px;
+    height: 350px;
+    background: red;
+    position: fixed;
+    top: 50px;
+    right: 50px;
+}

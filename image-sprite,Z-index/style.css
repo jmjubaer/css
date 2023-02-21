@@ -1,0 +1,52 @@
+.image_sprite {
+    width: 33px;
+    height: 35px;
+    border: 2px solid #000;
+    background: url("download (2).jpeg");
+    border-radius: 13px;
+    background-position: 5% 6%;
+    cursor: pointer;
+    transition: linear 0.5s;
+}
+div:hover{
+    background-position: -74% 6%;
+}
+.pareant{
+    width: 500px;
+    height: 500px;
+    border: 5px solid #000;
+    position: relative;
+}
+.div1{
+    width: 400px;
+    height: 400px;
+    background: aquamarine;
+    position: absolute;
+    top: 0;
+    border: 1px solid #000;
+    left: 0;
+    z-index: 1;
+}
+.div2{
+    width: 450px;
+    height: 450px;
+    background: greenyellow;
+    position: absolute;
+    top: 50%;
+    border: 1px solid #000;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.pareant:hover .div2{
+    z-index: 3;
+}
+.div3{
+    z-index: 2;
+    width: 400px;
+    height: 400px;
+    background: red;
+    position: absolute;
+    border: 1px solid #000;
+    bottom: 0;
+    right: 0;
+}
